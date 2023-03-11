@@ -1,5 +1,12 @@
+!target/index.html
+target/*
 */config/development
 */logs/log-*.php
 */logs/!index.html
 */cache/*
 */cache/!index.html
+*.class
+*.str
+*.dat
+*.data
+*.tmp
