@@ -2,11 +2,22 @@ Ini adalah proyek JASAKEREN MEMAKAI Java menggunakan Apache Maven 3.6..
 
 Jasakeren adalah proyek coba-coba untuk belajar microservice di JAVA
 
-mvn archetype:generate -DgroupId=com.wibisono.app -DartifactId=customer -Dversion=1.0-SNAPSHOT -DinteractiveMode=true
+perintah mvn:
+<ol>
+<li>mvn archetype:generate -DgroupId=com.wibisono.app -DartifactId=customer -Dversion=1.0-SNAPSHOT -DinteractiveMode=true
+<li>mvn archetype:generate -DgroupId=com.amigoscode -DartifactId=amigosservices -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+</ol>
 
-mvn archetype:generate -DgroupId=com.amigoscode -DartifactId=amigosservices -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+perintah docker:
+<ol>
+<li>docker compose up -d
+<li>docker compose ps
+</ol>
+<img src="images/docker000.jpg" width="500" /><br/>
+<img src="images/docker001.jpg" width="500" /><br/>
+<img src="images/pgadmin.jpg" width="500" /><br/>
+<img src="images/createDB.jpg" width="500" />
 
-error:
+sumber belajar:
 
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\java\demoku\amigosservices\customer\target\classes\com\amigoscode\customer\CustomerApplication.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\java\demoku\amigosservices\customer\target\classes\com\amigoscode\customer\CustomerApplication.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 63
-Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\java\demoku\amigosservices\customer\target\classes\com\amigoscode\customer\CustomerApplication.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 63
+<a href="https://www.youtube.com/playlist?list=PLwvrYc43l1Mwqpf9i-1B1gXfMeHOm6DeY">Youtube</a>
